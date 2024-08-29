@@ -1,0 +1,109 @@
+@import url(./mid1.css);
+
+#mid2{
+    /* border: 2px solid; */
+    height: 40vh;
+    background:var(--background1)
+    
+}
+#mid2 input{
+    height: 60px;
+    width: 700px;
+    margin-top: 5%;
+    position: absolute;
+    left: 20%;
+    background-color:  rgba(255, 255, 255, .07);
+    padding-left: 3%;
+    border: none;
+    color: #d1d6e6;
+}
+#mid2 span img{
+    margin-top: 15%;
+    margin-left: 25%;
+}
+#mid2 span{
+    height: 60px;
+    width: 80px;
+    margin-top: 5%;
+    position: absolute;
+    left: 76.5%;
+    background-color: var(--background-color3);
+}
+#mid3{
+    color: white;
+    height: 95vh;
+    background-color: var(--background-color1);
+    position: relative;
+}
+#mid3>p{
+    letter-spacing: 0.3em;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 14px;
+}
+#mid3 img{
+    margin-top: 10%;
+    margin-left: 3%;
+    height: 300px;
+}
+#mid3>p+p{
+    font-size: 2em;
+    margin-top: 10%;
+    margin-left: 60%;
+    margin-right: 20%;
+    line-height: 1.3em;
+    letter-spacing: normal;
+}
+#mid3>p+p+p{
+    margin-top: 10%;
+    margin-left: 73%;
+    margin-right: 50%;
+    color: var(--color1);
+}
+#mid3>p+p+p+p{
+    margin-top: 13.3%;
+    margin-left: 76%;
+    margin-right: 50%;
+}
+#mid3>p+p+p+p+p{
+    margin-top: 16.7%;
+    margin-left: 79%;
+    margin-right: 50%;
+}
+.btn1{
+    height: 60px;
+    width: 400px;
+    letter-spacing: 0.2em;
+}
+#mid3 button{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    background-color:var(--background-color3);
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+#mid3 button+button{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    background: transparent;
+    color:var(--color1);
+    border: 1px solid #255b82;
+    font-weight: 500;
+}
+#mid3 img+img{
+    height: 20px;
+    position: absolute;
+    left: 63%;
+    top: 41%;
+    z-index: 2;
+}
+#mid3 img+img+img{
+    height: 20px;
+    position: absolute;
+    left: 63.3%;
+    top: 56.3%;
+}

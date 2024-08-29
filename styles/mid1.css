@@ -1,0 +1,112 @@
+@import url(./mid2.css);
+
+#mid4{
+    border: 2px solid #070f1d;
+    height: 150vh;
+    background-image: linear-gradient(#050b14,#061e3e);  
+    position: relative;
+}
+#imgs{
+    margin: 150px 0 0 180px;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+#imgs img{
+    width: 13em;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+}
+#imgs img:hover{
+    width: 20em;
+}
+#mid-logs{
+    width: 84%;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 7.5%;
+    top: 40%;
+}
+#mid-logs img{
+    height: 50px;
+}
+#mid-logs p{
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
+}
+#mid5{
+    /* border: 2px solid; */
+    background-color: #050b14;
+    color: #fff;
+    position: relative;
+}
+#mid5>h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+}
+#sub-mid5{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+#sub-mid5 img{
+    height: 250px;
+    width: 500px;
+}
+.ssm5>p{
+    margin-top: 5%;
+}
+.ssm52>p{
+    margin-top: 5%;
+}
+.ssm5>p+p{
+    position: absolute;
+    top: 30.7%;
+    left: 16%;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:var(--color1);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+.ssm52>p+p{
+    position: absolute;
+    top: 30.7%;
+    left: 60%;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:var(--color1);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+.ssm5>p+p+p{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    right: 55%;
+    color: #fff;
+    font-weight:600;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.ssm52>p+p+p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: #fff;
+    font-weight:600;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.ssm52{
+    margin-left: 3%;
+}

@@ -1,0 +1,148 @@
+@import url(./mid3.css);
+
+#last-mid{
+    display: flex;
+    margin-top: 10%;
+    position: absolute;
+    left: 5%;
+}
+#last-mid img{
+    height: 170px;
+    width: 330px;
+}
+.lmid{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 335px;
+}
+.lmid p{
+    margin-top: 5%;
+    font-size: 12px;
+}
+.lmid p+p{
+    color: var(--color1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.lmid p+p+p{
+    color: var(--color);
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 1.5em;
+}
+#last-mid>div{
+    margin-left: 3%;
+}
+#last-mid>div p+p{
+    position: absolute;
+    top: 47%;
+    left: 13%;
+}
+#last-mid>div p+p+p{
+    position: absolute;
+    top: 60%;
+    left: 3.3%;
+}
+#last-mid>div+div{
+    margin-left: 3%;
+}
+#last-mid>div+div p+p{
+    position: absolute;
+    left: 48%;
+    top: 48%;
+}
+#last-mid>div+div p+p+p{
+    position: absolute;
+    left: 37.5%;
+    top: 60%;
+    right: 28%;
+}
+#last-mid>div+div+div{
+    width: 430px;
+    margin-left: 3%;
+    background-color:  rgba(255, 255, 255, .07);
+}
+#last-mid>div+div+div p{
+    position: absolute;
+    top: 0%;
+    left: 73%;
+}
+#last-mid>div+div+div p+p{
+    position: absolute;
+    top: 1%;
+    left: 83%;
+}
+#last-mid>div+div+div p+p+p{
+    position: absolute;
+    left: 73%;
+    top: 10%;
+    right: 0%;  
+}
+.last-mid1{
+    display: flex;
+    margin-top: 36%;
+    margin-left: 7%;
+    position: relative;
+}
+.last-mid1>div{
+    background-color:  rgba(255, 255, 255, .07);
+}
+.last-mid1>div>p{
+    position: absolute;
+    left: 5%;
+}
+.last-mid1>div>p+p{
+    position: absolute;
+    left: 13%;
+}
+.last-mid1>div>p+p+p{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    right: 73%;
+}
+.last-mid1>div+div{
+    margin-left: 3%;
+    background: transparent;
+}
+.last-mid1>div+div>p{
+    position: absolute;
+    left: 35%;
+    top: 55%;
+}
+.last-mid1>div+div>p+p{
+    position: absolute;
+    left: 43%;
+    top: 55%;
+}
+.last-mid1>div+div>p+p+p{
+    position: absolute;
+    left: 35%;
+    right: 40%;
+    top: 65%;
+}
+.last-mid1>div+div>img{
+    height: 188px;
+}
+.last-mid1>div+div+div{
+    margin-left: 3%;
+    background-color:  rgba(255, 255, 255, .07);
+}
+.last-mid1>div+div+div>p{
+    position: absolute;
+    left: 68%;
+    top: 1%;
+}
+.last-mid1>div+div+div>p+p{
+    position: absolute;
+    left: 77%;
+}
+.last-mid1>div+div+div>p+p+p{
+    position: absolute;
+    left: 68%;
+    top: 15%;
+    right: 7%;
+}

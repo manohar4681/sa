@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/youtube</title>
+    <g id="icons/youtube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M15.36,2 C16.8180317,2 18,3.18196826 18,4.64 L18,12.36 C18,13.8180317 16.8180317,15 15.36,15 L2.64,15 C1.18196826,15 1.7855739e-16,13.8180317 0,12.36 L0,4.64 C-1.7855739e-16,3.18196826 1.18196826,2 2.64,2 L15.36,2 Z M7,5 L7,12 L12,8.5 L7,5 Z" id="Logo" fill="#FFFFFF"></path>
+    </g>
+</svg>

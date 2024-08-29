@@ -1,0 +1,107 @@
+
+@import url(./mid.css);
+
+:root{  
+    --background-color1: #070e1d;
+    --background-color2: rgba(27, 29, 39, .97);
+    --font-size: .625em;
+    --background1: #141d29;
+    --background2: linear-gradient(180deg, #070f1d 10%, #11203e 100%);
+    --background3: #84899f;
+    --font-family: barlow, Arial, sans-serif;
+    --color: white;
+    --font-weight: 500;
+    --font-family1: 'barlow';
+    --color1: #255b8e;
+    --background-color3: #255b8e;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+}
+#nav{
+    /* border: 2px solid; */
+    height: 55px;
+    width: 100%;
+    background: var(--background-color1);
+    color: var(--color);
+}
+#nav ol{
+    margin-left: 30%;
+    /* border: 2px solid; */
+    height: inherit;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+#sub-nav{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 100%;
+    background-color: var(--background-color2);
+    color: var(--color);
+}
+#sub-nav ol{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 13px;
+    font-family: var(--font-family);
+}
+#sub-nav ol>li>img{
+    height: 40px;
+    margin-left: 3%;
+}
+#mi{
+    /* border: 2px solid; */
+    height: 120vh;
+    width: 100%;
+    background: linear-gradient(rgb(57, 57, 57,0.5),rgb(5, 5, 5,1));
+    position: absolute;
+    top: 23%;
+}
+#mid video{
+    width: 100%;
+}
+#mid p{
+    font-size: 5em;
+    color: var(--color);
+    font-family: barlow;
+    text-align: center;
+    position: absolute;
+    top:80%;
+    z-index: 2;
+    font-weight: 100;
+}
+#mid h1{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: var(--color);
+    font-family: barlow; 
+    text-align: center;
+    position: absolute;
+    top:70%;
+    left: 42%;
+    z-index: 2;
+    color: rgb(173, 173, 173);
+}
+#sub-mid{
+    border: 1px solid white;
+    height: 130px;
+    z-index: 2;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
